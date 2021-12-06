@@ -1,0 +1,82 @@
+ .body{
+    background:blue;
+}
+
+ #barra>input{
+    background-image: url(https://pin.it/7XCcaVb);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+} 
+
+form {
+    border-radius: 4px;
+    width: 200px;
+    margin: 20px auto;
+    border: 1px solid;
+}
+
+input {
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card {
+    position: relative;
+    /* height:max-content; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 400px;
+    border-radius: 30px;
+    color: rgb(185, 18, 18);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+    border: 3px solid rgb(184, 26, 5);
+}
+
+.poke-card::before {
+    content: '';
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    zoom: 1;
+}
+
+.poke-types div {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed rgb(241, 237, 237);
+    zoom: 1;
+}
+
+.poke-img {
+    width: 180px;
+    border-radius: 10%;
+    
+}
+
+B:hover{
+    color: cadetblue;
+}
